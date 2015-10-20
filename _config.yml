@@ -1,9 +1,12 @@
 # Site wide configuration
 
-title:            Site Title
+name: Balint Neray
+title:            Balint Neray
 locale:           en_US
-url:
-
+url:              http://balintneray.github.io
+description: "Personal website of sociologist Balint Neray."
+logo: logo-128x128.png
+teaser: logo-128x128.png
 
 # Jekyll configuration
 
@@ -23,27 +26,30 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
 
 # Site owner
+
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email:
-  disqus-shortname:
+  name: Balint Neray
+  avatar: nb.jpg
+  bio: "yet an other wordprocessin' and data-cruchin' sociologist"
+  email: balint.neray@gmail.com
+  disqus-shortname: balintneray
   twitter: #username
-  facebook: #username
+  facebook: balint.neray
   google:
-    plus: #username
-    analytics:
+    plus:
+    analytics: UA-55632707-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  xing: #username
+  github: balintneray
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: Balint Neray
   instagram: #username
   lastfm: #username
   tumblr: #username
@@ -53,9 +59,3 @@ owner:
   dribbble: #username
   youtube: #username
   soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
