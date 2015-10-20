@@ -1,0 +1,61 @@
+# Site wide configuration
+
+name: Balint Neray
+title:            Balint Neray
+locale:           en_US
+url:              http://balintneray.github.io
+description: "Personal website of sociologist Balint Neray."
+logo: logo-128x128.png
+teaser: logo-128x128.png
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+
+# Site owner
+
+owner:
+  name: Balint Neray
+  avatar: nb.jpg
+  bio: "yet an other wordprocessin' and data-cruchin' sociologist"
+  email: balint.neray@gmail.com
+  disqus-shortname: balintneray
+  twitter: #username
+  facebook: balint.neray
+  google:
+    plus:
+    analytics: UA-55632707-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: balintneray
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: Balint Neray
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
