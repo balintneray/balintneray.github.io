@@ -26,6 +26,8 @@ This course material is intended to give an introduction to R for social scienti
 
 - [1st lab]({{ site.url }}/teaching/introduction to r/intro_to_R.R) on R basics
 - [2nd lab]({{ site.url }}/teaching/introduction to r/data_frames.R) on data handling
+  - [Toy Data1]({{ site.url }}/teaching/introduction to r/exampleData.RData),
+  - [Toy Data2]({{ site.url }}/teaching/introduction to r/exampleData.txt),
+  - [Toy Data3]({{ site.url }}/teaching/introduction to r/test_ESS.dta)
 - [3rd lab]({{ site.url }}/teaching/introduction to r/descriptives.R) on descriptives
 - More coming soon.
-- [Toy Data1]({{ site.url }}/teaching/introduction to r/exampleData.RData), [Toy Data2]({{ site.url }}/teaching/introduction to r/exampleData.txt),[Toy Data3]({{ site.url }}/teaching/introduction to r/test_ESS.dta)
