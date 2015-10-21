@@ -20,12 +20,13 @@ image:
 
 ## Introduction to R
 
-This course material is intended to give an introduction to R for social scientists. The basics of R, data manipulation, elemental methods and data visualization is covered. This is only an imagined outline of the course, the labs are just fake files. Updates coming soon.
+This course material is intended to give an introduction to R for social scientists. The basics of R, data manipulation, elemental methods and data visualization is covered. All the course material is in the scripts. So please download the lab files as well as the data sets.
 
-- [1st lab]({{ site.url }}/teaching/introduction to r/intro_to_R.R) on R basics
-- [2nd lab]({{ site.url }}/teaching/introduction to r/data_frames.R) on data handling
+- [1st lab]({{ site.url }}/teaching/introduction to r/intro_to_R.R) on R basics: R as a calculator and different object types: vector, matrix, data frame, list and array.
+- [2nd lab]({{ site.url }}/teaching/introduction to r/data_frames.R) on data handling: how to to load the data, set up local environment, browse, build and handle data. For example this data:
   - [Toy Data1]({{ site.url }}/teaching/introduction to r/exampleData.RData),
   - [Toy Data2]({{ site.url }}/teaching/introduction to r/exampleData.txt),
   - [Toy Data3]({{ site.url }}/teaching/introduction to r/test_ESS.dta)
-- [3rd lab]({{ site.url }}/teaching/introduction to r/descriptives.R) on descriptives
-- More coming soon.
+- [3rd lab]({{ site.url }}/teaching/introduction to r/descriptives.R) on a lot of descriptive statistics, basic data visualization and bivariate relations.
+- 4th lab on regression analysis: simple linear, logistic models, hierarchical models and outputing the results.
+- 5th lab on some useful basic R functions.
