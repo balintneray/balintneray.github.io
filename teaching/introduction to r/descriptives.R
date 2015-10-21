@@ -184,7 +184,7 @@ setwd(path)
         pch = 21, bg = palette(c(rgb(170,93,152, maxColorValue=255),
                                  rgb(103,143,57, maxColorValue=255),
                                  rgb(115,113,206, maxColorValue=255)))[unclass(iris$Species)])
-
+  
   # look what is 'unclass' for
   a <- iris$Species
   class(a)
@@ -193,6 +193,14 @@ setwd(path)
   b <- unclass(iris$Species)
   class(b)
   summary(b)
+  
+# =============================================================================
+# EXCERCISE
+# =============================================================================
+# Use the 'pairs' function to create new plots. Play around the specifications
+# to produce even more meaningful or just more shiny results.
+# Don't be affraid to use different data sets.
+# =============================================================================
 
   # Non-independent samples' t-tests (paired t-test)
   # In case of dependence or overlaping of the sub-samples

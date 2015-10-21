@@ -312,3 +312,19 @@
 
   array1 <- array(0, dim = c(2, 2, 3))
   array1
+
+# =============================================================================
+# EXCERCISE
+# =============================================================================
+# Create 'a' 'b' and 'c' objects from numbers of your choice
+# Do different calculations with these objects and create new objects from
+# the results
+# Now create a single vector from all your results
+# Inspect its class
+# Make sure it is numeric
+# Convert it into a matirx
+# Convert the matrix into a data.frame
+# Print the number in the first column and second row
+# Multiply the number in the first column and first row with the number in the
+# the first column and third row
+# =============================================================================

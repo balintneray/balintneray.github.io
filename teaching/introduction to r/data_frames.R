@@ -199,8 +199,23 @@
   # sorting the data
   myBuiltData12 <- myBuiltData10[order(myBuiltData10$education, decreasing=T),]
 
+# =============================================================================
+# (5) Handling data.frames
+# =============================================================================
+  
   # saving the data
+  # one data object
   save(myBuiltData12, file="myBuiltData12.RData")
+  
+  # mroe data object
+  save(myBuiltData1, myBuiltData1, myBuiltData3, file="myBuiltData1-3.RData")
+  
+  # clean up the global environment
+  rm(data, my_first_data_frame)
+  
+  # save the complete globl environment
+  save.image("dataFrames.Rdata")
+  
 
 # =============================================================================
 # EXCERCISE
@@ -213,4 +228,5 @@
 # myTestData$hairColor <- factor(myTestData$hairColor,
 #                         levels = c(1,2,3),
 #                         labels = c("red", "blue", "green"))
+# save your brand new data
 # =============================================================================
