@@ -28,5 +28,5 @@ This course material is intended to give an introduction to R for social scienti
   - [Toy Data2]({{ site.url }}/teaching/introduction to r/exampleData.txt),
   - [Toy Data3]({{ site.url }}/teaching/introduction to r/test_ESS.dta)
 - [3rd lab]({{ site.url }}/teaching/introduction to r/descriptives.R) on a lot of descriptive statistics, basic data visualization and bivariate relations.
-- 4th lab on regression analysis: simple linear, logistic models, hierarchical models and outputing the results.
-- 5th lab on some useful basic R functions.
+- [4th lab]({{ site.url }}/teaching/introduction to r/multivariate_analysis.R) on regression analysis: simple linear, logistic models, hierarchical models and outputting the results.
+  - Will use this [data among]({{ site.url }}/teaching/introduction to r/resgression_data.RData) many other.
