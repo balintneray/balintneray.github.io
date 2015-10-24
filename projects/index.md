@@ -20,9 +20,36 @@ image:
 </section><!-- /#table-of-contents -->
 
 
+## Research Center for Educational and Network Studies (RECENS)
+
+RECENS is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts.
+<figure>
+<img class="wp-image-63" style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey.tif" alt="" width="417" height="273" />
+<figcaption><a
+href="http://recens.tk.mta.hu/en"
+Du</a>.</figcaption>
+</figure>
+RECENS is part of Centre for Social Sciences of the Hungarian Academy of Sciences. It is supported in the framework of the “Lendület” Program of the Hungarian Academy of Sciences that is a prestigious grant for establishing new research groups in cutting-edge areas.
+
+### Wired into Each Other- OTKA Research 2010-2013
+
+The research project proposed here aims to describe and explain segregation of friendships within school classrooms. The basic postulates of our research agenda are that the problem of ethnic integration should be  looked  at  the  level  of  voluntary  formation  of  friendship,  negative  and  romantic  ties;  and  that  the problem  of  ethnic  integration  in  the  classroom  cannot  be  looked  at  without  analyzing  the  interrelated dynamics  of  social  networks,  status,  and  performance.  Status  competition  typically  intensifies  the segregation  of  friendship  ties  and  might  also  lead  to  the  social  exclusion  of  disadvantaged  pupils,  or alternatively, as another problem, to the social exclusion of the best performing students.
+
+### Educational Research in Eastern Hungary 2009-2010
+
+The aim of the Project is to examine the adolescent communities of newly formed high-school classes in a small sized town, using the method of social network analysis. In the focus of the study are
+
+- the effects of class structure on certain relevant phenomena, such as social exclusion and integration, in-school performance, friendship, adversarial and romantic relations; and
+- the dynamics of these dimensions, and their repercussions on class structure and status positions occupied by individuals in the communities.
+- the research is based on three surveys performed in October 2009, February and May 2010. Teacher interviews and questionnaires provided further indispensable information for the analysis.
+
+- - -
+
 ## Cx-Ray (2014-2015)
 
 Coming soon.
+
+logo_recens_grey.tif
 
 - - -
 
@@ -61,9 +88,3 @@ Preceding studies suggest that certain personality traits have universal effects
   <img src="/images/netsci.png">
 	<figcaption>Poster: Personal attributes vs. homophily</figcaption>
 </figure>
-
-- - -
-
-## RECENS - Wired into each other (2010-)
-
-Coming soon.
