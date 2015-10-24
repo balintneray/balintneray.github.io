@@ -52,14 +52,9 @@ For this reason mapping out these seemingly invisible webs is essential to perfo
 Here at [CX-Ray](https://cx-ray.com) we work in a so called social network framework to provide our partners with the above mentioned benefits. If you are interested in the importance of social networks on an organizational outcomes follow [this blog](https://blog.cx-ray.com).
 
 <figure>
-	<img src="https://cx-ray.com/assets/img/tour/orgchart.jpg">
-  <figcaption><a href="https://cx-ray.com" title="Cx-Ray"</a>.</figcaption>
-</figure>
-
-
-<figure>
-	<img src="/images/baracktocat.jpg">
-  <figcaption><a href="https://octodex.github.com" </a>.</figcaption>
+	<a href="https://cx-ray.com/assets/img/tour/orgchart.jpg"><img
+  src="https://cx-ray.com/assets/img/tour/orgchart.jpg"></a>
+	<figcaption><a href="https://cx-ray.com/assets/img/tour/orgchart.jpg" title="Cx-Ray">Cx-ray</a>.</figcaption>
 </figure>
 
 - - -
