@@ -39,6 +39,7 @@ The aim of the Project is to examine the adolescent communities of newly formed 
 - the effects of class structure on certain relevant phenomena, such as social exclusion and integration, in-school performance, friendship, adversarial and romantic relations; and
 - the dynamics of these dimensions, and their repercussions on class structure and status positions occupied by individuals in the communities.
 - the research is based on three surveys performed in October 2009, February and May 2010. Teacher interviews and questionnaires provided further indispensable information for the analysis.
+
 <br><br>
 These are just two research projects that I am involved in but there are much more interesting research going on at [RECENS](http://recens.tk.mta.hu/en/lendulet-research).
 
