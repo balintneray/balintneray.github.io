@@ -22,7 +22,7 @@ image:
 
 ## Research Center for Educational and Network Studies (RECENS)
 
-RECENS is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts.
+[RECENS](http://recens.tk.mta.hu/en) is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts.
 <figure>
 <img class="wp-image-63" style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey.tif" alt="" width="209" height="137" />
 </figure>
@@ -39,6 +39,8 @@ The aim of the Project is to examine the adolescent communities of newly formed 
 - the effects of class structure on certain relevant phenomena, such as social exclusion and integration, in-school performance, friendship, adversarial and romantic relations; and
 - the dynamics of these dimensions, and their repercussions on class structure and status positions occupied by individuals in the communities.
 - the research is based on three surveys performed in October 2009, February and May 2010. Teacher interviews and questionnaires provided further indispensable information for the analysis.
+<br><br>
+These are just two research projects that I am involved in but there are much more interesting research going on at [RECENS](http://recens.tk.mta.hu/en/lendulet-research).
 
 - - -
 
