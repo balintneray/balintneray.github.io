@@ -22,11 +22,11 @@ image:
 
 ## Research Center for Educational and Network Studies (RECENS)
 
-[RECENS](http://recens.tk.mta.hu/en) is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts.
 <figure>
 <img class="wp-image-63" style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey.tif" alt="" width="209" height="137" />
 </figure>
-RECENS is part of Centre for Social Sciences of the Hungarian Academy of Sciences. It is supported in the framework of the “Lendület” Program of the Hungarian Academy of Sciences that is a prestigious grant for establishing new research groups in cutting-edge areas.
+[RECENS](http://recens.tk.mta.hu/en) is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts. RECENS is part of Centre for Social Sciences of the Hungarian Academy of Sciences. It is supported in the framework of the “Lendület” Program of the Hungarian Academy of Sciences that is a prestigious grant for establishing new research groups in cutting-edge areas.
+<br><br>
 
 ### Wired into Each Other- OTKA Research 2010-2013
 
