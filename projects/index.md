@@ -56,6 +56,12 @@ Here at [CX-Ray](https://cx-ray.com) we work in a so called social network frame
   <figcaption><a href="https://cx-ray.com" title="Cx-Ray"</a>.</figcaption>
 </figure>
 
+
+<figure>
+	<img src="/images/baracktocat.jpg">
+  <figcaption><a href="https://octodex.github.com" </a>.</figcaption>
+</figure>
+
 - - -
 
 ## Working with Github Pages (2014)
