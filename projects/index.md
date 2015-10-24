@@ -1,7 +1,7 @@
 ---
 layout: page
 title: My Projects
-excerpt: "About the project that I am involved or intersted in"
+excerpt: "About the project that I am involved or interested in"
 tags: [projects, resources]
 comments: true
 modified: 2014-10-21
@@ -47,8 +47,6 @@ These are just two research projects that I am involved in but there are much mo
 ## Cx-Ray (2014-2015)
 
 Coming soon.
-
-logo_recens_grey.tif
 
 - - -
 
