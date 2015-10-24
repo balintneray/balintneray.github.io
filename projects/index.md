@@ -49,7 +49,12 @@ These are just two projects that I am involved in but there are much more intere
 In recent years restructuring efforts have resulted in organizations with fewer hierarchical levels and more flexible functional and organizational boundaries in order to promote efficiency. As a consequence of these efforts the coordination and work increasingly occur through informal networks of relationships rather than through formal reporting structures or prescribed work processes. Research shows that appropriate connectivity in networks within organizations can have a substantial impact on performance, learning, and innovation, and benefits also accrue from well-connected networks between organizations.
 For this reason mapping out these seemingly invisible webs is essential to performance and strategy execution. Social network analysis can provide an *x-ray* into the inner workings of an organization - a powerful means of making invisible patterns of information flow and collaboration in strategically important groups visible.
 <br><br>
-Here at [CX-Ray](https://cx-ray.com) we work in a so called social network framework to provide our partners with the above mentioned benefits.
+Here at [CX-Ray](https://cx-ray.com) we work in a so called social network framework to provide our partners with the above mentioned benefits. If you are interested in the importance of social networks on an organizational outcomes follow [this blog](https://blog.cx-ray.com).
+
+<figure>
+	<img src="https://cx-ray.com/assets/img/tour/orgchart.jpg">
+  <figcaption><a href="https://cx-ray.com" title="Cx-Ray"</a>.</figcaption>
+</figure>
 
 - - -
 
