@@ -39,7 +39,7 @@
   # (pctmetro), the percent of the population that is white (pctwhite), percent of population
   # with a high school education or above (pcths), percent of population living under
   # poverty line (poverty), and percent of population that are single parents (single).
-  # It has 51 observations. We are going to use poverty and single to predict crime.
+  # It has 51 observations. We are going to use poverty and high school education or above.
 
 # =============================================================================
 # (1) Linear regression
@@ -133,7 +133,6 @@
          cex.labels = 1,
          main = "Descriptive relations")
   
-  
   # Linear regression models can be estimated by the linear model function lm().
   # Inspect the help function of lm() frst.
   ?lm
@@ -186,7 +185,10 @@
 # and evaluate the fit of the final model again.
 # =============================================================================
 
-
+  # d <- d[d$sid != 1,]
+  # or ...
+  # d <- d[2:50,]
+  
 # =============================================================================
 # (2) Logistic regression
 # =============================================================================
@@ -294,7 +296,7 @@
   # we can tell R to create the predicted probabilities. The first line of code below is quite compact,
   # we will break it apart to discuss what various components do.
   # The newdata1$rankP tells R that we want to create a new variable in the dataset (data frame)
-  # newdata1 called rankP, the rest of the command tells R that the values of rankPshould be
+  # newdata1 called rankP, the rest of the command tells R that the values of rankP should be
   # predictions made using the predict( ) function.
   # The options within the parentheses tell R that the predictions should be based on the analysis
   # model3 with values of the predictor variables coming from newdata1 and that the type of prediction
@@ -325,6 +327,7 @@
     UL <- plogis(fit + (1.96 * se.fit))
   })
   
+  head(newdata3)
   # Now graphs of predicted probabilities to understand and/or present the model.
   # We will use the ggplot2 package for graphing.
   # Below we make a plot with the predicted probabilities,
@@ -333,7 +336,7 @@
         ymax = UL, fill = rank), alpha = 0.2) + geom_line(aes(colour = rank), size = 1)
   
 # =============================================================================
-# (2) Hierarchical logistic regression
+# (3) Hierarchical logistic regression with lme4
 # =============================================================================
 
   # (0.2) working directory
@@ -345,9 +348,19 @@
   # (0.3) the complete data created by the 03 script
   load("regression_data.Rdata")
   
+  # let's see the key variables
   str(d)
+
+  # this is going to be a 2 level analysis
+  # where the level 1 observations are friendship diyads among students
+  # and the level 2 observations are schoolse dependent variable is 
+  # friendship retention (measurement): retained / not retaoned
+  # as explanatory / control variables there are variables 
+  # to measure the composition of the dyad as well as the school context
+  # since it is a 5-wave longitudinal data there are time-varying variabls too
   
   # removing NA on free lunch
+  # bcause it is an imprtant control
   # creating a working copy
   d <- d[!is.na(d$homogeneFreeLunch),]
   
@@ -549,7 +562,13 @@
             out="TESTPRINT2.html")
 
   # Let's create more descriptive plots to intrudoce the results
+  # We are going to plot the friendship rentenrion of the different
+  # dyads in between every wave (4-times)
+  
   # creating one variable for all the 9 different dyads
+  
+  # the original variables have to be nueric because we have to use them for math
+  # note that the levels and numbers are shifted
   d$WhiteWhite <- as.numeric(d$WhiteWhite)
   d$WhiteBlack <- as.numeric(d$WhiteBlack)
   d$WhiteHispanic <- as.numeric(d$WhiteHispanic)
@@ -560,6 +579,7 @@
   d$HispanicBlack <- as.numeric(d$HispanicBlack)
   d$HispanicWhite <- as.numeric(d$HispanicWhite)
   
+  # recreate the original dummies in numeric form
   d$WhiteWhite[d$WhiteWhite == 1] <- 0
   d$WhiteBlack[d$WhiteBlack == 1] <- 0
   d$WhiteHispanic[d$WhiteHispanic == 1] <- 0
@@ -580,6 +600,7 @@
   table(d$HispanicBlack)
   table(d$HispanicWhite)
   
+  # recode
   d$WhiteWhite[d$WhiteWhite == 2] <- 1
   d$WhiteBlack[d$WhiteBlack == 2] <- 2
   d$WhiteHispanic[d$WhiteHispanic == 2] <- 3
@@ -590,7 +611,8 @@
   d$HispanicBlack[d$HispanicBlack == 2] <- 8
   d$HispanicWhite[d$HispanicWhite == 2] <- 9
   
-  # Full dyad type plot
+  # Creating full dyad type plot
+  # The new dyad type variable
   d$dyadType <- d$WhiteWhite + d$WhiteBlack + d$WhiteHispanic +
     d$BlackBlack + d$BlackWhite + d$BlackHispanic +
     d$HispanicHispanic + d$HispanicWhite + d$HispanicBlack
@@ -601,11 +623,17 @@
   d$friendshipRetention <- d$measurement
   d$friendshipRetention <- factor(d$friendshipRetention, levels=c(0,1), labels=c("not retained", "retained"))
   
+  # Subsets based on waves
   dw1 <- d[d$wave==1,]
   dw2 <- d[d$wave==2,]
   dw3 <- d[d$wave==3,]
   dw4 <- d[d$wave==4,]
   
+  # pdf() will tell R that there is going to be some graphical output that we want to save somewhere
+  # then we create the 4 plot with qplot() in a grid format where the grid is based on the retention dummy
+  # the expand_limits() as an extra argument specifies the max height of y.
+  # finally, dev.off() will close the graphical device so R know to write out everythin that is
+  # in between the the pdf() and dev.off() commands.
   pdf(file="/Users/balintneray/Copy/My_Projects/MTA_R_workshop/dyad_plots_all.pdf", width=11.69, height=8.27)
   plot1 <- qplot(dyadType, data=dw1, fill=friendshipRetention, geom="bar",
                  main="N of friendship dyads (w1-2)",
@@ -627,6 +655,8 @@
   dev.off()
   
   # Dyad type plot without WhiteWhite dyad
+  # ... because that one big bar made the whole plot ugly /
+  # diffucult to interpret
   d$dyadType2 <- d$WhiteBlack + d$WhiteHispanic +
     d$BlackBlack + d$BlackWhite + d$BlackHispanic +
     d$HispanicHispanic + d$HispanicWhite + d$HispanicBlack
@@ -660,4 +690,4 @@
                  ylab="N (1761)") + guides(fill=F) + facet_grid(friendshipRetention ~ .) + expand_limits(y=c(0,450))
   grid.arrange(arrangeGrob(plot5, plot6, plot7, plot8, nrow=2, ncol=2)) # main = "title"
   dev.off()
-
+  

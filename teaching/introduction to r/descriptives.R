@@ -83,7 +83,12 @@ setwd(path)
 # prop.table(table(painters$Colour, painters$School))
 # Use these three options and evaluate what the effective differences are
 # =============================================================================
-
+  
+  prop.table(table(painters$Colour, painters$School),1)
+  prop.table(table(painters$Colour, painters$School),2)
+  prop.table(table(painters$Colour, painters$School))
+  round(prop.table(table(painters$Colour, painters$School)),2)
+  
   # Distribution
   # There are several ways to inspect the empirical distribution of variables.
   # The function summary(), producing summary statistics of variables, has already
@@ -168,6 +173,7 @@ setwd(path)
   pairs(~ Fertility + Education + Catholic, data = swiss,
         subset = Education < 20, main = "Swiss data, Education < 20")
   # let's do something with our favorite colors
+  ?iris
   pairs(iris[1:4], main = "Anderson's Iris Data -- 3 species",
         pch = 21, bg = c("red", "green3", "yellow")[unclass(iris$Species)])
   # or squares
@@ -277,6 +283,7 @@ setwd(path)
   # that is, we are comparing among and between group variations
   ?survey
   head(survey)
+  str(survey)
   levels(survey$Exer) # let it be the treatment
   summary(survey$Pulse) # let it be the response that we are interested in
 

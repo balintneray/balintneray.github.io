@@ -96,11 +96,14 @@
   my_first_vector <- c(3,4,5)
   my_first_vector
   class(my_first_vector)
+  is.numeric(my_first_vector)
   mean(my_first_vector)
 
   # Note that a new R object appeared in your 'Global Environment' in the upper right corner.
   # Here are some other objects.
   dates <- c("1986-02-16","2001-09-25")
+  dates
+  class(dates)
 
   # Be aware that R is case sensitive!
   names1 <- c("Anna","Imre","Bence")
@@ -112,6 +115,8 @@
   names1 == names2
 
   # Let's restore the original
+  names1 <- c("Anna","Imre","Bence")
+  names2 <- c("anna","imre","bence")
 
   # You can refer to elements of these vectors of by using [ ]:
   names1[1]
@@ -194,9 +199,10 @@
   disguised_numeric <- c("1","2","3")
   disguised_numeric
   as.numeric(disguised_numeric)
+  class(disguised_numeric)
   # Here is what would happen with a character vector if you wanted to convert it into a numeric vector.
-  as.numeric(names)
-  as.numeric(c(names,1))
+  as.numeric(names1)
+  as.numeric(c(names1,1))
 
   # The type of vectors is important, because it determines what functions can do with the data.
   # For instance, you can calculate the mean of only numeric vectors
@@ -224,7 +230,7 @@
 # =============================================================================
 
   # It's always row by column (NOT column by row)
-
+  my_first_vector <- c(1,2,3)
   my_second_vector <- c(5,7,0)
   my_first_matrix <- cbind(my_first_vector,my_second_vector)
   my_second_matrix <- rbind(my_first_vector,my_second_vector)
@@ -292,11 +298,11 @@
 
   # A single list could have 5 vectors, 4 matrices, 3 arrays,
   # 2 dataframes, and who knows what else
-
+  names1 <- c("a", "b", "c")
   my_first_list <- list(my_first_vector,
                         my_second_vector,
                         my_firs_dataframe,
-                        names)
+                        names1)
 
   # Note how the indexing is done, and the difference between [[ ]] and [ ]
   my_first_list[1]
@@ -328,3 +334,27 @@
 # Multiply the number in the first column and first row with the number in the
 # the first column and third row
 # =============================================================================
+  
+  a <- 4
+  b <- 2
+  c <- 7
+  
+  d <- a+b
+  e <- a*b*c
+  f <- c-a
+  g <- a/b
+  
+  vector <- c(d,e,f,g)
+  
+  matrix <- as.matrix(vector)
+  
+  data <- as.data.frame(matrix)
+  
+  data[2,1]
+  
+  h <- data[1,1]
+  i <- data[3,1]
+  
+  j <- h*i
+  j
+  

@@ -34,7 +34,8 @@
   # as follows:
   # Let's read a text file from a web page
   my_first_data_frame <- read.table('http://sna.stanford.edu/sna_R_labs/data/Krack-High-Tec-edgelist-Advice.txt')
-
+  class(my_first_data_frame)
+  
   # Note that when you set a variable equal to something, if all
   # goes well R will not provide any feedback. To see the data we
   # just loaded, it's necessary to call the variables directly.
@@ -58,10 +59,11 @@
   # the default corresponds to the working directory which we already set
   ?read.table
   my_second_data_frame <- read.table("exampleData.txt", header=T, sep=' ')
+  my_second_data_frame
   # if the data is in a
   load("exampleData.RData")
   my.second.data.frame <- data
-
+  
   # When data files are part of an R package you can read them as
   # follows:
   # data(kracknets, package = "NetData")
@@ -76,15 +78,16 @@
 
   data() # lists all the datasets in all the packages in memory
   data(package="datasets") # lists all the datasets in the "datasets" package
+  require(ggplot2)
   ?diamonds # you can find out more about the data
-
+    
   # The 'foreign' package will allow you to read a few other
   # custom data types, such as SPSS files via read.spss() and
   # STATA files via read.dta().
   # install.packages("foreign")
-  # library(foreign)
+  library(foreign)
   # for example
-  myStataData <- read.dat("test_ESS.dta")
+  myStataData <- read.dta("test_ESS.dta")
 
 # =============================================================================
 # EXCERCISE
@@ -92,7 +95,12 @@
 # create an SPSS file from the 'quine' data set
 # (it might require some google search)
 # =============================================================================
-
+  
+  ?quine
+  # install.packeges("MASS")
+  library(MASS)
+  write.foreign(quine, "mySpssData.sps", "mySpssData.sps",   package="SPSS")
+  
 # =============================================================================
 # (2) Browsing data.frames
 # =============================================================================
@@ -127,7 +135,9 @@
 
   # let's create 2 vectors first
   names <- c("karoly", "balint", "dori")
+  is.character(names)
   gender <- c(2,2,1)
+  class(gender)
 
   # create a data.frame out of them
   myBuiltData1 <- data.frame(names, gender)
@@ -149,6 +159,7 @@
   myBuiltData3 <- cbind(myBuiltData3$id, myBuiltData3$name, myBuiltData3$gender)
   # since we operated on the vectors of the data.frame it became a matrix again
   # and lost the names of the columns
+  myBuiltData3
   colnames(myBuiltData3) <- c("id", "name", "gender")
   myBuiltData3 <- data.frame(myBuiltData3)
 
@@ -174,6 +185,13 @@
 # name it as: myTestData
 # =============================================================================
 
+  id <- c(1,2,3,4,5)
+  name <- c("Zoli", "Flora", "Borte", "Karoly", "Palma")
+  gender <- c(1,2,2,1,2)
+  hairColor <- c(1,1,1,2,3)
+  
+  myTestData <- data.frame(id, name, gender, hairColor)
+  
 # =============================================================================
 # (4) Handling data.frames
 # =============================================================================
@@ -198,9 +216,10 @@
 
   # sorting the data
   myBuiltData12 <- myBuiltData10[order(myBuiltData10$education, decreasing=T),]
+  myBuiltData12 <- myBuiltData12[order(myBuiltData12$female, decreasing=T),]
 
 # =============================================================================
-# (5) Handling data.frames
+# (5) Saving the data
 # =============================================================================
   
   # saving the data
@@ -208,7 +227,7 @@
   save(myBuiltData12, file="myBuiltData12.RData")
   
   # mroe data object
-  save(myBuiltData1, myBuiltData1, myBuiltData3, file="myBuiltData1-3.RData")
+  save(myBuiltData1, myBuiltData2, myBuiltData3, file="myBuiltData1-3.RData")
   
   # clean up the global environment
   rm(data, my_first_data_frame)
@@ -216,7 +235,6 @@
   # save the complete globl environment
   save.image("dataFrames.Rdata")
   
-
 # =============================================================================
 # EXCERCISE
 # =============================================================================
@@ -230,3 +248,24 @@
 #                         labels = c("red", "blue", "green"))
 # save your brand new data
 # =============================================================================
+
+  head(myTestData)
+  myTestData$name <- NULL
+  head(myTestData)
+  
+  myTestData$man <- myTestData$gender
+  myTestData$man[myTestData$man == 1] <- 1
+  myTestData$man[myTestData$man == 2] <- 0
+  myTestData$gender <- NULL
+  head(myTestData)
+  
+  myTestData$hairColor <- factor(myTestData$hairColor,
+                          levels = c(1,2,3),
+                          labels = c("braun", "braunish", "braunishish"))
+  
+  class(myTestData$hairColor)
+  str(myTestData)
+  
+  # we shall create a factor from 'man'
+  
+  
