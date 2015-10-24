@@ -40,13 +40,16 @@ The aim of the Project is to examine the adolescent communities of newly formed 
 - the dynamics of these dimensions, and their repercussions on class structure and status positions occupied by individuals in the communities.
 - the research is based on three surveys performed in October 2009, February and May 2010. Teacher interviews and questionnaires provided further indispensable information for the analysis.
 <br><br>
-These are just two research projects that I am involved in but there are much more interesting research going on at [RECENS](http://recens.tk.mta.hu/en/lendulet-research).
+These are just two projects that I am involved in but there are much more interesting research going on at [RECENS](http://recens.tk.mta.hu/en/lendulet-research).
 
 - - -
 
 ## Cx-Ray (2014-2015)
 
-Coming soon.
+In recent years restructuring efforts have resulted in organizations with fewer hierarchical levels and more flexible functional and organizational boundaries in order to promote efficiency. As a consequence of these efforts the coordination and work increasingly occur through informal networks of relationships rather than through formal reporting structures or prescribed work processes. Research shows that appropriate connectivity in networks within organizations can have a substantial impact on performance, learning, and innovation, and benefits also accrue from well-connected networks between organizations.
+For this reason mapping out these seemingly invisible webs is essential to performance and strategy execution. Social network analysis can provide an *x-ray* into the inner workings of an organization - a powerful means of making invisible patterns of information flow and collaboration in strategically important groups visible.
+&nbsp;
+Here at [CX-Ray](https://cx-ray.com) we work in a so called social network framework to provide our partners with the above mentioned benefits.
 
 - - -
 
