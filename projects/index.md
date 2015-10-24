@@ -24,10 +24,7 @@ image:
 
 RECENS is a research center led by Károly Takács, conducting high quality research with a primary interest in the interrelated dynamics of social networks, cooperation and competition in various social contexts.
 <figure>
-<img class="wp-image-63" style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey.tif" alt="" width="417" height="273" />
-<figcaption><a
-href="http://recens.tk.mta.hu/en"
-Du</a>.</figcaption>
+<img class="wp-image-63" style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey.tif" alt="" width="209" height="137" />
 </figure>
 RECENS is part of Centre for Social Sciences of the Hungarian Academy of Sciences. It is supported in the framework of the “Lendület” Program of the Hungarian Academy of Sciences that is a prestigious grant for establishing new research groups in cutting-edge areas.
 
