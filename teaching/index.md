@@ -20,7 +20,7 @@ image:
 
 ## Introduction to R
 
-This course material is intended to give an introduction to R for social scientists. The basics of R, data manipulation, elemental methods and data visualization is covered. All the course material is in the scripts. So please download the lab files as well as the data sets before starting the course.
+This course material is intended to give an introduction to R for social scientists. The basics of R, data manipulation, elemental methods and data visualization is covered. All the course material is in the scripts. So please download the lab files as well as the data sets before starting the course. You can read about installing R [here](http://balintneray.github.io/install-R/) if you need some help.
 
 - [1st lab]({{ site.url }}/teaching/introduction to r/intro_to_R.R) on R basics: R as a calculator and different object types: vector, matrix, data frame, list and array.
 - [2nd lab]({{ site.url }}/teaching/introduction to r/data_frames.R) on data handling: how to to load the data, set up local environment, browse, build and handle data. For example this data:
