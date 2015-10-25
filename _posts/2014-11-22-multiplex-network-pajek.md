@@ -17,7 +17,7 @@ By hoping that it might be useful for other likeminded folks, I would like to gi
 
 The key element of the process is the appropriate construction of the Pajek `.net` file. It always starts with the definition of the vertices. If you would like to have different vertice shapes, you can indicate the shape of each vertice in the third column after the vertex label. One can define multiple networks in the input file, separating them with the `*Arcs :1 ""` and `*Arcs :2 ""` lines, where `""` allows for labeling the network (which is missing in my case). When listing the arcs, the first two numbers in each row are always the vertices (listed in the first column of the `*Vertices` section) that define the arc, and the third number is always the number of the network (so it is always 1 for the first network, 2 for the second and so on).
 
-```ruby
+```
 *Vertices 18
 1 "1" box
 2 "2" ellipse
