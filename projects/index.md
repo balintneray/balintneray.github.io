@@ -22,6 +22,7 @@ image:
 
 ## Research Center for Educational and Network Studies (RECENS)
 
+<br><br>
 <figure>
 <a href="https://cx-ray.com">
   <img class="wp-image-63" style="border: 0pt none; float: right; padding-left: 10px; padding-bottom: 5px;" src="/images/logo_recens_grey_trans.tif" alt="" width="229" height="147" />
