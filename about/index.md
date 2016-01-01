@@ -12,7 +12,10 @@ image:
 #### third person bio
 
 Balint is usually working on becoming a better person as well as a better sociologist at which point he can write a more earnest and productive bio. Until then, his pivotal accomplishment remains the recognition of desire for an impactful subsistence.
-{: .text-justify}
+{: .text-justify{
+  text-align: justify;
+}}
+
 <br><br>
 
 #### first person bio		
