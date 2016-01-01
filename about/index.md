@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Me
+title: me
 tags: [about, personal]
 modified: 2014-10-21
 comments: false
 image:
   feature: boglar.jpg
 ---
-<br><br>
 
 ### third person bio
 
 Balint is usually working on becoming a better person as well as a better sociologist at which point he can write a more earnest and productive bio. Until then, his pivotal accomplishment remains the recognition of desire for a cleaner subsistence.
+<br><br>
 
 ### first person bio		
 
