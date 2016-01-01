@@ -11,7 +11,7 @@ image:
 
 #### third person bio
 
-Balint is usually working on becoming a better person as well as a better sociologist at which point he can write a more earnest and productive bio. Until then, his pivotal accomplishment remains the recognition of desire for an impactful subsistence.
+Balint is usually working on becoming a better person as well as a better sociologist at which point he can write a more earnest and professional bio. Until then, his pivotal accomplishment remains the recognition of longing for an impactful subsistence.
 {: .text-justify}
 
 #### first person bio		
