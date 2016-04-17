@@ -37,12 +37,12 @@ The well-known R and RStudio will also be useful during the course and a text ed
 
 - [Day 2 / 1st lab]({{ site.url }}/teaching/introduction to ergm/) on Goodness of fit
 - [Day 2 / 2nd lab]({{ site.url }}/teaching/introduction to ergm/) on Understanding ERGM parameters
-- [Day 2 / 3rd lab]({{ site.url }}/teaching/introduction to ergm/) on Estimating models with attributes and
-- [Day 2 / 4th lab]({{ site.url }}/teaching/introduction to ergm/) Empirical example covariates
+- [Day 2 / 3rd lab]({{ site.url }}/teaching/introduction to ergm/) on Estimating models with attributes and covariates
+- [Day 2 / 4th lab]({{ site.url }}/teaching/introduction to ergm/) Empirical example
 - Questions and Answers
 - If we have time:
   - Fitting bipartite ERGMs including attributes and GoF,
-  - Fitting the organizational multilevel network,
+  - Fitting ERGM on a organizational multilevel network,
   - Simple ERGM example using R (statnet))
 
 ## Introduction to R
