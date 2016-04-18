@@ -19,7 +19,7 @@ image:
 </section><!-- /#table-of-contents -->
 
 
-## Introduction Exponential Random Graph Models (ERGM)
+## 1. Introduction Exponential Random Graph Models (ERGM)
 
 #### Foreword
 
@@ -53,7 +53,7 @@ The well-known R and RStudio will also be useful during the course and a text ed
   - Fitting ERGM on a organizational multilevel network,
   - Simple ERGM example using R (statnet))
 
-## Introduction to R
+## 2. Introduction to R
 
 This course material is intended to give an introduction to R for social scientists. The basics of R, data manipulation, elemental methods and data visualization is covered. All the course material is in the scripts. So please download the lab files as well as the data sets before starting the course. You can read about installing R [here](http://balintneray.github.io/install-R/) if you need some help.
 
