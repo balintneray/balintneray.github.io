@@ -21,13 +21,13 @@ image:
 
 ## Introduction Exponential Random Graph Models (ERGM)
 
-### Foreword
+#### Foreword
 
 This course introduces the basic concepts of ERGM, gives examples of why it is used, and shows how to conduct basic ERGM analyses. Although ERGM is a statistical approach that was developed to handle the inherent non-independence of network data, the possibility to include node attributes and dyadic covariates in the model makes it a very useful method for examining social systems.
 
 While no prior experience with ERGMs will be assumed during the course, participants will be expected to understand fundamental social network concepts and terminology, and to have some knowledge of basic concepts in statistical inference.
 
-### Technicalities
+#### Technicalities
 
 Participants will be expected to bring their own portable laptop computer. The software package MPnet will be used extensively throughout the workshop and can be downloaded from the [MelNet Social Network Research Group website](http://www.swinburne.edu.au/fbl/research/transformative-innovation/our-research/MelNet-social-network-group/). Click on “PNet software”, download “MPNet for multilevel networks” and make sure you have a the required dependences installed within your Windows environment.
 
@@ -35,7 +35,7 @@ MPNet can be made to run native in Macintosh environment thanks to James Hollway
 
 The well-known R and RStudio will also be useful during the course and a text editor software as well as MS Excel might also come in handy. You can find help about the installation  [here](http://balintneray.github.io/install-R/).
 
-### Schedule
+#### Schedule
 
 - [Day 1 / 1st lab]({{ site.url }}/teaching/introduction to ergm/) on ERGM rationale
 - [Day 1 / 2nd lab]({{ site.url }}/teaching/introduction to ergm/) on Dependence assumptions and simple ERGMs
