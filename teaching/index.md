@@ -29,7 +29,7 @@ While no prior experience with ERGMs will be assumed during the course, particip
 
 #### Technicalities
 
-Participants will be expected to bring their own portable laptop computer. The software package MPnet will be used extensively throughout the workshop and can be downloaded from the [MelNet Social Network Research Group website](http://www.swinburne.edu.au/fbl/research/transformative-innovation/our-research/MelNet-social-network-group/). Click on “PNet software”, download “MPNet for multilevel networks” and make sure you have a the required dependences installed within your Windows environment.
+Participants will be expected to bring their own portable laptop computer. The software package MPnet will be used extensively throughout the workshop and can be downloaded from the [MelNet Social Network Research Group website](http://www.swinburne.edu.au/fbl/research/transformative-innovation/our-research/MelNet-social-network-group/). Click on “PNet software”, download “MPNet for multilevel networks” and make sure you have the required dependences installed within your Windows environment.
 
 MPNet can be made to run native in Macintosh environment thanks to James Hollway who has put the standalone Windows software ‘MPNet’ into a wrapper that makes it possible to use it on Macintosh computers. In order to make it work, you can download the wrapped .app from [James' website](http://www.jameshollway.com/mpnet-for-mac/mpnet/), and also make sure to have a [Wine bottler](https://wiki.winehq.org/MacOSX) installed on your Mac.
 
