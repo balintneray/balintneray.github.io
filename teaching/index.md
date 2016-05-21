@@ -37,17 +37,21 @@ The well-known R and RStudio will also be useful during the course and a text ed
 
 #### Schedule
 
-- [Day 1 / 1st lab]({{ site.url }}/teaching/introduction to ergm/) on ERGM rationale
-- [Day 1 / 2nd lab]({{ site.url }}/teaching/introduction to ergm/) on Dependence assumptions and simple ERGMs
-- [Day 1 / 3rd lab]({{ site.url }}/teaching/introduction to ergm/) on Some technical details about simulation and estimation of ERGMs
-- [Day 1 / 4th lab]({{ site.url }}/teaching/introduction to ergm/) Empirical example
+- [Day 1 / 1st lab] on ERGM rationale
+- [Day 1 / 2nd lab] on Dependence assumptions and simple ERGMs
+- [Day 1 / 3rd lab] on Some technical details about simulation and estimation of ERGMs
+- [Day 1 / 4th lab]  Empirical example
 - Questions and Answers
 
-- [Day 2 / 1st lab]({{ site.url }}/teaching/introduction to ergm/) on Goodness of fit
-- [Day 2 / 2nd lab]({{ site.url }}/teaching/introduction to ergm/) on Understanding ERGM parameters
-- [Day 2 / 3rd lab]({{ site.url }}/teaching/introduction to ergm/) on Estimating models with attributes and covariates
-- [Day 2 / 4th lab]({{ site.url }}/teaching/introduction to ergm/) Empirical example
+- [Day 2 / 1st lab] on Goodness of fit
+- [Day 2 / 2nd lab] on Understanding ERGM parameters
+- [Day 2 / 3rd lab] on Estimating models with attributes and covariates
+- [Day 2 / 4th lab] Empirical example
 - Questions and Answers
+
+- Download slieds from [here]({{ site.url }}/teaching/introduction to ergm/slidesERGMDay12.zip), and
+- Data sets from [here]({{ site.url }}/teaching/introduction to ergm/dataERGMDay12.zip)
+
 - If we have time:
   - Fitting bipartite ERGMs including attributes and GoF,
   - Fitting ERGM on a organizational multilevel network,
