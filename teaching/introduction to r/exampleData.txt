@@ -1,4 +1,0 @@
-names gender
-balint 1
-karoly 1
-xy 0
