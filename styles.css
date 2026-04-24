@@ -4,19 +4,19 @@
    ========================================================= */
 
 :root {
-  /* Palette — warm bone, deep warm-black, rust accent */
-  --bg:            #FAF9F5;
-  --bg-alt:        #F2F0E7;
-  --bg-card:       #FFFFFE;
+  /* Palette — Glacier White (BM OC-37), deep warm-black, quiet monochrome grey */
+  --bg:            #E4E7DC;      /* Benjamin Moore OC-37 Glacier White */
+  --bg-alt:        #DADDD1;
+  --bg-card:       #EDF0E5;
   --ink:           #1A1915;
   --ink-2:         #3C3A33;
   --ink-3:         #6B675C;
   --ink-4:         #9A9688;
-  --rule:          #E4E0D3;
-  --rule-strong:   #C9C4B4;
-  --accent:        #CC785C;      /* rust / coral — Anthropic-adjacent */
-  --accent-ink:    #8E4B34;
-  --highlight:     #F2EADC;
+  --rule:          #CCD0C2;
+  --rule-strong:   #B2B6A9;
+  --accent:        #7F8079;      /* midpoint grey between ink and bg */
+  --accent-ink:    #5F6059;      /* darker grey for emphasis / hover */
+  --highlight:     #D2D6C8;
 
   /* Type */
   --serif:  'Fraunces', 'Tiempos', 'Iowan Old Style', Georgia, serif;
@@ -50,8 +50,8 @@ html, body {
 body {
   /* Subtle paper grain — almost invisible, adds warmth */
   background-image:
-    radial-gradient(circle at 20% 10%, rgba(204,120,92,0.035), transparent 55%),
-    radial-gradient(circle at 85% 80%, rgba(204,120,92,0.025), transparent 60%);
+    radial-gradient(circle at 20% 10%, rgba(95,96,89,0.05), transparent 55%),
+    radial-gradient(circle at 85% 80%, rgba(95,96,89,0.035), transparent 60%);
 }
 
 img, svg { display: block; max-width: 100%; }
@@ -180,7 +180,7 @@ a {
   height: 10px;
   border-radius: 999px;
   background: var(--accent);
-  box-shadow: 0 0 0 4px rgba(204,120,92,0.12);
+  box-shadow: 0 0 0 4px rgba(127,128,121,0.18);
   flex: none;
 }
 
@@ -255,7 +255,7 @@ a {
   height: 40vw;
   max-width: 680px;
   max-height: 680px;
-  background: radial-gradient(circle at center, rgba(204,120,92,0.22), rgba(204,120,92,0) 66%);
+  background: radial-gradient(circle at center, rgba(95,96,89,0.14), rgba(95,96,89,0) 66%);
   pointer-events: none;
   z-index: 0;
 }
@@ -316,6 +316,8 @@ a {
   color: var(--ink-2);
   margin: 0;
   font-variation-settings: 'opsz' 24, 'SOFT' 50;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .hero__actions {
@@ -446,6 +448,8 @@ a {
   letter-spacing: -0.008em;
   margin: 0 0 1.5rem;
   font-variation-settings: 'opsz' 48, 'SOFT' 40;
+  text-align: justify;
+  hyphens: auto;
 }
 .prose-lg em {
   font-style: italic;
@@ -459,6 +463,8 @@ a {
   color: var(--ink-2);
   margin: 0 0 2.5rem;
   max-width: 60ch;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .fact-list {
@@ -571,6 +577,8 @@ a {
   color: var(--ink-2);
   font-size: 0.98rem;
   line-height: 1.62;
+  text-align: justify;
+  hyphens: auto;
 }
 .role__notes li::before {
   content: '';
@@ -621,6 +629,8 @@ a {
   color: var(--ink-2);
   font-size: 0.96rem;
   line-height: 1.6;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .skills {
@@ -688,7 +698,7 @@ a {
   border-bottom: 1px solid var(--rule);
   transition: background .25s var(--ease);
 }
-.pub:hover { background: rgba(204,120,92,0.04); }
+.pub:hover { background: rgba(95,96,89,0.06); }
 
 .pub__year {
   font-family: var(--mono);
@@ -823,8 +833,8 @@ a {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 15% 20%, rgba(204,120,92,0.18), transparent 50%),
-    radial-gradient(circle at 85% 85%, rgba(204,120,92,0.10), transparent 55%);
+    radial-gradient(circle at 15% 20%, rgba(255,255,255,0.06), transparent 50%),
+    radial-gradient(circle at 85% 85%, rgba(255,255,255,0.04), transparent 55%);
   pointer-events: none;
 }
 
@@ -854,6 +864,8 @@ a {
   max-width: 58ch;
   color: rgba(250,249,245,0.78);
   margin: 0 0 3rem;
+  text-align: justify;
+  hyphens: auto;
   font-variation-settings: 'opsz' 24, 'SOFT' 50;
 }
 
