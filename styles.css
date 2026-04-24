@@ -710,6 +710,21 @@ a {
   margin-bottom: 0.4rem !important;
 }
 
+.pub__title a {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  padding-bottom: 2px;
+  transition: background-size .35s var(--ease), color .2s var(--ease);
+}
+.pub__title a:hover {
+  color: var(--accent-ink);
+  background-size: 100% 1px;
+}
+
 .pub__authors {
   font-size: 0.92rem;
   color: var(--ink-2);
