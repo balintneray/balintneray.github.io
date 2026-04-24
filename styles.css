@@ -4,19 +4,19 @@
    ========================================================= */
 
 :root {
-  /* Palette — Glacier White (BM OC-37), deep warm-black, quiet monochrome grey */
-  --bg:            #E4E7DC;      /* Benjamin Moore OC-37 Glacier White */
-  --bg-alt:        #DADDD1;
-  --bg-card:       #EDF0E5;
+  /* Palette — warm cream bg, deep warm-black, quiet monochrome warm-grey accent */
+  --bg:            #F5EBD8;      /* requested: rgb(245, 235, 216) */
+  --bg-alt:        #EBE0C3;
+  --bg-card:       #FCF5E6;
   --ink:           #1A1915;
   --ink-2:         #3C3A33;
   --ink-3:         #6B675C;
   --ink-4:         #9A9688;
-  --rule:          #CCD0C2;
-  --rule-strong:   #B2B6A9;
-  --accent:        #7F8079;      /* midpoint grey between ink and bg */
-  --accent-ink:    #5F6059;      /* darker grey for emphasis / hover */
-  --highlight:     #D2D6C8;
+  --rule:          #E0D4B3;
+  --rule-strong:   #C8BC99;
+  --accent:        #878276;      /* midpoint grey between ink and bg */
+  --accent-ink:    #5F5A4E;      /* darker warm grey for emphasis / hover */
+  --highlight:     #E8DDB8;
 
   /* Type */
   --serif:  'Fraunces', 'Tiempos', 'Iowan Old Style', Georgia, serif;
@@ -50,8 +50,8 @@ html, body {
 body {
   /* Subtle paper grain — almost invisible, adds warmth */
   background-image:
-    radial-gradient(circle at 20% 10%, rgba(95,96,89,0.05), transparent 55%),
-    radial-gradient(circle at 85% 80%, rgba(95,96,89,0.035), transparent 60%);
+    radial-gradient(circle at 20% 10%, rgba(95,90,78,0.05), transparent 55%),
+    radial-gradient(circle at 85% 80%, rgba(95,90,78,0.035), transparent 60%);
 }
 
 img, svg { display: block; max-width: 100%; }
@@ -180,7 +180,7 @@ a {
   height: 10px;
   border-radius: 999px;
   background: var(--accent);
-  box-shadow: 0 0 0 4px rgba(127,128,121,0.18);
+  box-shadow: 0 0 0 4px rgba(135,130,118,0.2);
   flex: none;
 }
 
@@ -255,7 +255,7 @@ a {
   height: 40vw;
   max-width: 680px;
   max-height: 680px;
-  background: radial-gradient(circle at center, rgba(95,96,89,0.14), rgba(95,96,89,0) 66%);
+  background: radial-gradient(circle at center, rgba(95,90,78,0.14), rgba(95,90,78,0) 66%);
   pointer-events: none;
   z-index: 0;
 }
@@ -698,7 +698,7 @@ a {
   border-bottom: 1px solid var(--rule);
   transition: background .25s var(--ease);
 }
-.pub:hover { background: rgba(95,96,89,0.06); }
+.pub:hover { background: rgba(95,90,78,0.07); }
 
 .pub__year {
   font-family: var(--mono);
